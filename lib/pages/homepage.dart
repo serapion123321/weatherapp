@@ -1,8 +1,9 @@
 import 'package:WeatherApp/utilityscreen.dart';
 import 'package:WeatherApp/widget/DrawerFlutter.dart';
-import 'package:WeatherApp/widget/homepageappbar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+int valuekota = 0;
 
 class HomePage extends StatefulWidget {
   @override
@@ -12,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   var scaffoldKey = GlobalKey<ScaffoldState>();
   String dropdownValue = 'Jakarta, Indonesia';
-  int valuekota = 0;
+
 
   @override
   Widget build(BuildContext context) {
